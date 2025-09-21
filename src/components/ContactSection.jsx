@@ -11,11 +11,13 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 export const ContactSection = () => {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const formRef=useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -27,6 +29,9 @@ export const ContactSection = () => {
         title: "Message sent!",
         description: "Thank you for your message. I'll get back to you soon.",
       });
+      if(formRef.current){
+        formRef.current.reset();
+      }
       setIsSubmitting(false);
     }, 1500);
   };
@@ -113,7 +118,7 @@ export const ContactSection = () => {
           >
             <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
 
-            <form className="space-y-6">
+            <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label
                   htmlFor="name"
