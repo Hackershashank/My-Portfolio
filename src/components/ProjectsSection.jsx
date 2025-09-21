@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Chit-Chat App",
+    title: "Chit-Chat - Real-time chat app",
     description: "A Full Stack Realtime Chat App",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "NodeJs", "MongoDB","ExpressJs"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "TailwindCSS", "NodeJs", "MongoDB","ExpressJs","SocketIO"],
+    demoUrl: "https://chat-appn.onrender.com/",
+    githubUrl: "https://github.com/Hackershashank/Chit-chat",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Quick.ai - Full stack SaaS AI Platform",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://quick-ai-client-kohl.vercel.app/",
+    githubUrl: "https://github.com/Hackershashank/QuickAi",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "GreenCart - Grocery E-commerce Platform",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: "/projects/project3.png",
     tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://green-cart-frontend-pi.vercel.app/",
+    githubUrl: "https://github.com/Hackershashank/GreenCart",
   },
 ];
 
