@@ -3,30 +3,30 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Chit-Chat - Real-time chat app",
-    description: "A Full Stack Realtime Chat App",
+    title: "Chit-Chat",
+    description: "Real Time chat application with Socket.IO for instant messaging, JWT authentication, and MongoDB persistence, deployed to Render.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "NodeJs", "MongoDB","ExpressJs","SocketIO"],
+    tags: ["ReactJs", "TailwindCSS", "NodeJs", "MongoDB","ExpressJs","SocketIO","Cloudinary"],
     demoUrl: "https://chat-appn.onrender.com/",
     githubUrl: "https://github.com/Hackershashank/Chit-chat",
   },
   {
     id: 2,
-    title: "Quick.ai - Full stack SaaS AI Platform",
+    title: "Quick.ai",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Scalable SaaS application delivering AI utilities with RESTful APIs and integrated billing via Clerk.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["ExpressJs", "Clerk", "Cloudinary","CORS","OpenAi","TailwindCSS","ReactJs","Neon PostgreSQL"],
     demoUrl: "https://quick-ai-client-kohl.vercel.app/",
     githubUrl: "https://github.com/Hackershashank/QuickAi",
   },
   {
     id: 3,
-    title: "GreenCart - Grocery E-commerce Platform",
+    title: "GreenCart",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["ReactJs", "Node.js", "Stripe","MongoDB","TailwindCSS","Cloudinary","JWT","Cloudinary"],
     demoUrl: "https://green-cart-frontend-pi.vercel.app/",
     githubUrl: "https://github.com/Hackershashank/GreenCart",
   },
