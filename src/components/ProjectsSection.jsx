@@ -30,6 +30,36 @@ const projects = [
     demoUrl: "https://green-cart-frontend-pi.vercel.app/",
     githubUrl: "https://github.com/Hackershashank/GreenCart",
   },
+  {
+    id: 4,
+    title: "EDA_Restaurants_sales_analysis",
+    description:
+      "An Exploratory Data Analysis (EDA) project focused on restaurant sales data. This analysis identifies trends, category performance, customer spending patterns, and key revenue contributors using visual insights and statistical evaluation.",
+    image: "/projects/project4.png",
+    tags: ["python","pandas","matplotlib","seaborn","jupyter notebook"],
+    demoUrl: "https://github.com/Hackershashank/EDA_Restaurants_sales_analysis",
+    githubUrl: "https://github.com/Hackershashank/EDA_Restaurants_sales_analysis",
+  },
+  {
+    id: 5,
+    title: "Online-Fraud-Detection",
+    description:
+      "The goal of this notebook is to build a reliable fraud-classification model that minimizes false negatives — ensuring suspicious transactions are detected early and accurately.",
+    image: "/projects/project5.png",
+    tags: ["python","pandas","matplotlib","seaborn","jupyter notebook"],
+    demoUrl: "https://github.com/Hackershashank/Online-Fraud-Detection",
+    githubUrl: "https://github.com/Hackershashank/Online-Fraud-Detection",
+  },
+  {
+    id: 6,
+    title: "Spam-Mail-Detection",
+    description:
+      "This notebook builds a machine learning model to classify emails as spam or legitimate using natural language processing techniques. It includes text preprocessing, feature extraction (TF-IDF), model training, and performance evaluation to achieve accurate spam detection.",
+    image: "/projects/project6.png",
+    tags: ["python","pandas","matplotlib","seaborn","jupyter notebook"],
+    demoUrl: "https://github.com/Hackershashank/Spam-Mail-Detection",
+    githubUrl: "https://github.com/Hackershashank/Spam-Mail-Detection",
+  },
 ];
 
 export const ProjectsSection = () => {
